@@ -1,0 +1,241 @@
+﻿/*
+* @Author: Administrator
+* @Date:   2017-08-27 23:44:34
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-28 01:22:15
+*/
+@import url('base.css');
+ /
+body{
+	background: #f3f4f6;
+}
+.head-dingwei{
+	width: 100%;
+	height: 0.88rem;
+}
+/* 头部开始 */
+.head{
+	width: 100%;
+	height: 0.88rem;
+	background: #fff;
+	border-bottom: 1px solid #cdcdcd;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+
+}
+.head-1{
+	width: 0.21rem;
+	height: 0.37rem;
+	background: #fff;
+	margin-left: 0.34rem;
+	margin-top: 0.22rem;
+	float: left;
+	 
+}
+
+.img1{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.head-2{
+	font-size: 0.32rem;
+	margin-top: 0.22rem;
+	margin-left: 2.9rem;
+	margin-right: 0.24rem;
+}
+
+/* 头部结束 */
+
+/* 头部结束 */
+
+/* 头部下面开始 */
+
+.list{
+	width: 100%;
+	height: 0.86rem;
+	background: #fff;
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0.83rem;
+    padding-right: 0.9rem;
+}
+
+.list li{
+	font-size: 0.28rem;
+}
+.list li a{
+	font-size: 0.28rem;
+	color: #727272;
+}
+/* 头部下面结束 */
+/* 框框开始 */
+.kuang{
+	width: 100%;
+	height: 0.1rem;
+	background: #f3f4f6;
+}
+/* 框框结束 */
+/* 拼团开始 */
+.pintuan{
+	width: 100%;
+	height: 2.62rem;
+	background-color: #fff;
+	position: relative;
+}
+.tipian{
+	width: 2rem;
+	height: 2rem;
+	position: absolute;
+	left: 0.2rem;
+	top: 0.3rem;
+	background-color: red;
+}
+.img1{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.wenzi{
+	width: 4.6rem;
+	height: 0.6rem;
+	position: absolute;
+	left: 2.4rem;
+	top: 0.35rem;
+	font-size: 0.24rem;
+	color: #020202; 
+}
+.wezi-1{
+	width: 1.35rem;
+	height: 0.3rem;
+	position: absolute;
+	left: 2.47rem;
+	top: 1.32rem;
+	font-size: 0.4rem;
+	color: #fc7da8;
+
+}
+.wezi-2{
+	width: 0.68rem;
+	height: 0.17rem;
+	position: absolute;
+	left: 4rem;
+	top: 1.45rem;
+	font-size: 0.16rem;
+	color: #6a6a6a;
+	text-decoration: line-through;
+}
+.wezi-3{
+	width: 3.05rem;
+	height: 0.2rem;
+	position: absolute;
+	left: 2.4rem;
+	top: 1.97rem;
+	font-size: 0.2rem;
+	color: #6a6a6a;
+}
+.wezi-4{
+	width: 1.6rem;
+	height: 0.58rem;
+	position: absolute;
+	top: 1.8rem;
+	right: 0.4rem;
+	font-size: 0.22rem;
+	border-radius: 0.3rem;
+	background-color: #ff679a;
+	color: #fff;
+	text-align: center;
+	padding-top: 0.12rem;
+}
+.wenzi-4 a{
+	color: #fff;
+}
+.biankuang{
+	width:6.8rem;
+	height:0.02rem;
+	background-color: #fafafa;
+	position: absolute;
+	bottom: 0;
+	left: 0.2rem;
+
+}
+
+
+/* 拼团结束 */
+
+ /* 查看更多拼团开始 */
+.gengduopintuan{
+	width: 100%;
+	height: 1.2rem;
+	background-color: #fff; 
+	display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.gengduopintuan-wenzi{
+	width: 4.5rem;
+	height: 0.6rem;
+	background-color: #ff679a;
+	border-radius: 0.28rem;
+	font-size: 0.26rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.6rem;
+}
+
+
+ /* 查看更多拼团结束 */
+ /* 尾部开始 */
+ 
+.weibu{
+	width: 100%;
+	height: 1rem;
+	background: #fff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+}
+
+.tubiao{
+	width: 6.1rem;
+	height: 0.4rem;
+	margin: 0.15rem auto;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+}
+.tubiao li{
+	width: 0.4rem;
+	height: 0.4rem;
+	background: #fff;
+
+
+}
+.weibu-wenzi{
+	width: 6.1rem;
+	height: 0.2rem;
+	margin: 0 auto;
+	background: #fff;
+	display: flex;
+	justify-content: space-between;
+}
+ 
+.weibu-wenzi-1{
+	display: block;
+	font-size: 0.2rem;
+	color: #9B9B9B;
+}
+/* 尾部结束 */
+/* 尾部定位开始 */
+.weibudingwei{
+    width: 100%;
+	height: 1.37rem;
+	background: #fff;
+	 
+}
+/* 尾部定位结束 */

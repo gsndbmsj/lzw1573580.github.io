@@ -1,0 +1,99 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-27 19:10:35
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-27 22:23:59
+*/
+@import url('base.css');
+body{
+	background: #e5e5e5;
+}
+/* 头部开始 */
+.head{
+	width: 100%;
+	height: 0.88rem;
+	background: #fff;
+	border-bottom: 1px solid #cdcdcd;
+	overflow: hidden;
+}
+.head-1{
+	width: 0.21rem;
+	height: 0.37rem;
+	background: #fff;
+	margin-left: 0.34rem;
+	margin-top: 0.22rem;
+	float: left;
+	 
+}
+
+.img1{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.head-2{
+	font-size: 0.32rem;
+	margin-top: 0.22rem;
+	margin-left: 2.9rem;
+	margin-right: 0.24rem;
+}
+
+/* 头部结束 */
+
+/* 头部下面的方框开始 */
+.fangkuang{
+	width: 100%;
+	height: 0.1rem;
+	 
+}
+/* 头部下面的方框结束 */
+
+/* 个人信息设置部分开始 */
+.xinxi{
+	width: 100%;
+	height: 2.88rem;
+	background-color: #fff;
+}
+.xinxi-word{
+	width: 6.87rem;
+	height: 2.88rem;
+	background: #fff;
+	margin-left: 0.32rem;
+	
+}
+.xinxi-word li{
+	width: 6.87rem;
+	height: 0.96rem;
+	border-bottom: 1px solid #e5e5e5;
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 0.25rem;
+} 
+ 
+.xinxi-word li a{
+	font-size: 0.28rem;
+	color: #212121;
+
+}
+
+/* 个人信息设置部分结束 */
+/* 退出开始 */
+.tuichu{
+	width: 100%;
+	height: 0.9rem;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+.tuichutxt{
+	font-size: 0.3rem;
+	color: #d81559; 
+}
+
+
+/* 退出结束 */

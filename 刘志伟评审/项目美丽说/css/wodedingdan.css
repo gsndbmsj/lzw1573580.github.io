@@ -1,0 +1,246 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-27 22:27:11
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-27 23:42:24
+*/
+@import url('base.css');
+body{
+	background: #e5e5e5;
+}
+.head-dingwei{
+	width: 100%;
+	height: 0.88rem;
+}
+/* 头部开始 */
+.head{
+	width: 100%;
+	height: 0.88rem;
+	background: #fff;
+	border-bottom: 1px solid #cdcdcd;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+
+}
+.head-1{
+	width: 0.21rem;
+	height: 0.37rem;
+	background: #fff;
+	margin-left: 0.34rem;
+	margin-top: 0.22rem;
+	float: left;
+	 
+}
+
+.img1{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.head-2{
+	font-size: 0.32rem;
+	margin-top: 0.22rem;
+	margin-left: 2.9rem;
+	margin-right: 0.24rem;
+}
+
+/* 头部结束 */
+/* 列表开始 */
+.list{
+	width: 100%;
+	height: 0.86rem;
+	background: #fff;
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 9px solid #f0f5f9;
+    padding-left: 0.49rem;
+    padding-right: 0.23rem;
+}
+
+.list li{
+	font-size: 0.28rem;
+}
+.list li a{
+	font-size: 0.28rem;
+	color: #727272;
+	 
+}
+
+.list li:nth-of-type(2){
+
+	border-bottom: 0.04rem solid #000;
+}
+
+
+
+/* 列表结束 */
+/* 美丽优选部分开始 */
+.meiliyouxuan{
+	width: 100%;
+	height: 0.78rem;
+	background: #fff;
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+    border-bottom: 0.01rem solid #f4f4f4;	
+}
+.meiliyouxuan li{
+	font-size: 0.26rem;
+
+}
+.meiliyouxuan li a{
+	color: #6a6a6a;
+
+}
+
+ 
+
+.meiliyouxuan-bottom{
+	width: 100%;
+	height: 3.13rem;
+	background-color: #fff;
+	position: relative;
+}
+
+.fengexian1{
+	width: 6.9rem;
+	height: 2px;
+	background-color: #fdfdfd;
+	position: absolute;
+	right: 0;
+	top: 0;
+
+}
+.img1{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.tupian{
+	display: block;
+	float: left;
+	width: 1.15rem;
+	height: 1.72rem;
+	position: absolute;
+	top: 0.13rem;
+	left:0.19rem; 
+	background-color: red;
+}
+.text-1{
+	float: left;
+	width: 3.78rem;
+	height: 0.54rem;
+	position: absolute;
+	top: 0.25rem;
+	left: 1.56rem;
+	font-size: 0.24rem;
+
+}
+.text-2{
+	float: left;
+	width: 3.35rem;
+	height: 0.22rem;
+	position: absolute;
+	top: 1rem;
+	left: 1.56rem;
+	font-size: 0.22rem;
+	color: #9c9c9c;
+}
+.monery-1{
+	float: left;
+	width: 0.83rem;
+	height: 0.2rem;
+	position: absolute;
+	top: 0.25rem;
+	left: 6.16rem;
+	font-size: 0.22rem;
+
+}
+.shuliang{
+	float: left;
+	width: 0.5rem;
+	height: 0.2rem;
+	position: absolute;
+	top: 1.58rem;
+	right: 0;
+	font-size: 0.22rem;
+	color: #9c9c9c;
+
+}
+.xiantiao-1{
+	width: 6.9rem;
+	height: 4px;
+	background-color: #fdfdfd;
+	position: absolute;
+	right: 0;
+	bottom: 0.7rem;
+}
+.baoyou{
+	float: left;
+	width: 2.1rem;
+	height: 0.26rem;
+	position: absolute;
+	top: 2.5rem;
+	left: 4.3rem;
+	font-size: 0.26rem;
+	color: #9c9c9c;
+}
+.monery-2{
+	float: left;
+	width: 1.17rem;
+	height: 0.26rem;
+	position: absolute;
+	top: 2.5rem;
+	right: 0;
+	font-size: 0.26rem;
+	color: #f789b6;
+}
+.xiantiao-2{
+	width: 6.9rem;
+	height: 2px;
+	background-color: #fdfdfd;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+
+}
+ 
+.jiewei{
+	width: 100%;
+	height: 0.96rem;
+	background-color: #fff;
+	position: relative;
+
+}
+.shijian{
+	width: 2.7rem;
+	height: 0.3rem;
+	position: absolute;
+	top: 0.38rem;
+	left: 0.4rem;
+	font-size: 0.2rem;
+    color: #ff679a;
+}
+.fukuan{
+	width: 1.6rem;
+	height: 0.58rem;
+	position: absolute;
+	top: 0.17rem;
+	right: 0.15rem;
+	font-size: 0.22rem;
+	border-radius: 0.3rem;
+	background-color: #ff679a;
+	color: #fff;
+	text-align: center;
+	padding-top: 0.12rem;
+}
+.fukuan a{
+	color: #fff;
+}
+/* 美丽优选部分结束 */

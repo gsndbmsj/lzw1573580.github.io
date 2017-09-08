@@ -1,0 +1,482 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-27 18:53:30
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-08-28 02:14:48
+*/
+@import url('base.css');
+body{
+	 
+	background:#f0f5f9; 
+}
+/* header开始 */
+header{
+	width: 100%;
+	height: 0.88rem;
+	background: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	padding-left: 0.36rem;
+	padding-right: 0.34rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.img1{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+header .left{
+	font-size: 0.36rem;
+	color: #707070;
+}
+header .right{
+    width: 1.07rem;
+    height: 0.38rem;
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header .right .zuo{
+	display: block;
+	width:0.34rem;
+	height: 0.32rem; 
+	background: red;
+}
+header .right .you{
+	display: block;
+	width:0.38rem;
+	height: 0.38rem; 
+	background: red;
+}
+#header{
+	width: 100%;
+	height: 0.88rem;
+}
+/* 商品图片开始 */
+.shangpin{
+	width: 100%;
+	height: 12.24rem;
+	background: #fff;
+	padding-left: 0.2rem;
+	padding-right: 0.22rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+.shangpin .tu{
+	width: 7.08rem;
+	height: 8.7rem;
+	display: block;
+	background: red;
+}
+.img1{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.shangpin .wen{
+	font-size: 0.32rem;
+	color: #3d3d3d;
+	display: block;
+	display: flex;
+	flex-wrap: wrap;
+}
+.shangpin .price{
+	width: 3.88rem;
+	height: 0.8rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+.shangpin .price .s1{
+	font-size: 0.44rem;
+	color: #ff6298;
+}
+.shangpin .price .s2{
+	font-size: 0.22rem;
+	color: #979797;
+}
+.shangpin .price .zhe{
+	width: 0.8rem;
+	height: 0.32rem;
+	border-radius: 0.32rem;
+	background: #e10147;
+	font-size: 0.2rem;
+	color: #fff2fa;
+	text-align: center;
+	line-height: 0.32rem;
+}
+.shangpin .xiaoliang{
+	width: 7.04rem;
+	height: 0.24rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.shangpin .xiaoliang span{
+	font-size: 0.24rem;
+	color: #999999;
+} 
+.shangpin .kuaidi{
+	width: 6.91rem;
+	height: 0.78rem;
+	display: block;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-top: 0.01rem solid #e4e4e4;
+	margin-left: 0.06rem;
+}
+.shangpin .kuaidi .list{
+	width: 6.5rem;
+	height: 0.3rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.shangpin .kuaidi .list li{
+	width: 28%;
+	height: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+}
+.shangpin .kuaidi .list li:first-child{
+	width: 32%;
+}
+.shangpin .kuaidi .list li:last-child{
+	width: 40%;
+}
+.shangpin .kuaidi .list li:last-child{
+	margin-right: 0;
+}
+.shangpin .kuaidi .list li .yuan{
+	width: 0.3rem;
+	height: 0.3rem;
+	border-radius: 50%;
+	border: 0.02rem solid #6a6a6a;
+	font-size: 0.14rem;
+	color: #6a6a6a;
+	padding-right: 0.05rem;
+	text-align: center;
+	line-height: 0.3rem;
+}
+.shangpin .kuaidi .list li span{
+	font-size:0.22rem; 
+	color: #676767;
+	padding-right: 0.2rem;
+}
+.shangpin .kuaidi .ss{
+    font-size:0.22rem; 
+	color: #a2a2a2;
+}
+
+/* 优惠 */
+.youhui{
+	width: 100%;
+    height: 0.97rem;
+    margin-top: 0.09rem;
+    border-top: 0.02rem solid #efefef;
+    background: #fff;
+    padding-left: 0.3rem;
+    padding-right: 0.36rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.youhui .left{
+	width: 6rem;
+	height: 0.38rem;
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.youhui .left .lijian{
+	width: 1.2rem;
+	height: 0.38rem;
+	border-radius: 0.04rem;
+	background: #ff6954;
+	font-size: 0.2rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.36rem;
+}
+.youhui .left span{
+	font-size: 0.2rem;
+	color: #494949;
+}
+.youhui .right{
+	font-size: 0.24rem;
+	color: #494949;
+}
+ 
+/* 店铺信息 */
+.dianpu{
+	width: 100%;
+	height: 4.56rem;
+	background: #fff;
+	margin-top: 0.1rem;
+	padding-left: 0.3rem;
+	padding-top: 0.49rem;
+	padding-bottom: 0.48rem;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: center;
+}
+.dianpu .top{
+	width: 6.9rem;
+	height: 1.04rem;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.dianpu .top .daleft{
+	width: 3.6rem;
+	height: 1.04rem;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+.dianpu .top .left{
+	width: 1.04rem;
+	height: 1.04rem;
+	border-radius: 50%;
+	background: red;
+}
+.dianpu .top .center{
+	font-size: 0.3rem;
+	color: #3c3c3c;
+}
+.dianpu .top .right{
+	width: 1.3rem;
+	height: 0.48rem;
+	border-radius: 0.48rem;
+	background: #fc689a;
+	font-size: 0.28rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.48rem;
+}
+.dianpu .zhong{
+	width: 6.12rem;
+	height: 1.13rem;
+	display: flex;
+}
+.dianpu .zhong .left{
+	width: 3.28rem;
+	height: 1.13rem;
+	border-right: 0.01rem solid #cdcdcd;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-around;
+}
+.dianpu .zhong .left .shang{
+	width: 100%;
+	height: 0.3rem;
+	display: flex;
+	justify-content:space-between;
+}
+.dianpu .zhong .left .xia{
+	width: 100%;
+	height: 0.26rem;
+	display: flex;
+	justify-content: space-between;
+}
+.dianpu .zhong .left .s1{
+	font-size: 0.3rem;
+	color: #383838;
+	padding-left: 0.4rem;
+	padding-right: 0.4rem;
+}
+.dianpu .zhong .left .s2{
+	font-size: 0.26rem;
+	color: #5b5b5b;
+	padding-left: 0.35rem;
+	padding-right: 0.23rem;
+}
+.dianpu .zhong .right{
+	width: 2.84rem;
+	height: 1.13rem;
+	padding-left: 0.67rem;
+}
+.dianpu .zhong .right .list{
+	width: 2.17rem;
+	height: 1.08rem;
+}
+.dianpu .zhong .right .list li{
+	width: 100%;
+	height: 33.333333%;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.dianpu .zhong .right .list li .s1{
+	font-size: 0.26rem;
+	color: #646464;
+}
+.dianpu .zhong .right .list li .s2{
+	font-size: 0.2rem;
+	color: #ff778d;
+}
+.dianpu .zhong .right .list li img{
+	width: 0.28rem;
+	height: 0.28rem;
+	background: red;
+}
+.dianpu .bottom{
+	width: 5.6rem;
+	height: 0.6rem;
+	border-radius: 0.6rem;
+	background: #f4f5f7;
+	padding-left: 0.8rem;
+	padding-right: 0.8rem;
+	display: flex;
+	margin-top: 0.48rem;
+	margin-left: 0.4rem;
+	justify-content: space-between;
+	align-items: center;
+}
+.dianpu .bottom a{
+	font-size: 0.26rem;
+	color: #606062;
+}
+.dianpu .bottom .shu{
+	width: 0.03rem;
+	height: 0.47rem;
+	background: #fff;
+}
+/* 详情 */
+.xiangqing{
+	width: 100%;
+	height: 2.97rem;
+	background: #fff;
+	margin-top: 0.1rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.xiangqing .top{
+	width: 100%;
+	height: 0.91rem;
+	display: flex;
+	justify-content: space-around;
+}
+.xiangqing .top li{
+	width: 1.4rem;
+	height: 0.91rem;
+}
+.xiangqing .top li a{
+	width: 1.4rem;
+	height: 0.91rem;
+	display: block;
+	font-size: 0.26rem;
+	color: #636363;
+	text-align: center;
+	line-height: 0.91rem;
+}
+.xiangqing .top li:first-child{
+	border-bottom: 0.04rem solid #fe6e92;
+}
+.xiangqing .top li:first-child a{
+	color: #fe6e92;
+}
+.xiangqing .tu{
+	width: 6.7rem;
+	height: 1.86rem;
+	background: red;
+}
+.tu-1{
+	width: 100%;
+	height: 5.6rem;
+	margin-top: 1rem;
+	border-bottom: 0.25rem solid #fff;
+}
+.tu-1{
+	width: 100%;
+	height: 5.6rem;
+	 
+	border-bottom: 0.25rem solid #fff;
+}
+
+
+
+ 
+/* weibu */
+.weibu{
+	width: 100%;
+	height: 0.98rem;
+	border-top: 0.01rem solid #e5e5e5;
+	background: #fff;
+	display: flex;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+}
+.weibu .list{
+	width: 3.18rem;
+	height: 0.98rem;
+	display: flex;
+	justify-content: space-around;
+}
+.weibu .list li{
+	width: 33.333333%;
+	height: 0.98rem;
+}
+.weibu .list li a{
+	width: 100%;
+	height: 0.98rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+	display: block;
+}
+.weibu .list li a img{
+	width: 0.42rem;
+	height: 0.42rem;
+	display: block;
+	margin: 0.1rem auto;
+}
+.weibu .list li a span{
+	font-size: 0.18rem;
+	color: #5d5d5d;
+	display: block;
+	text-align: center;
+}
+.weibu .er{
+	width: 2.16rem;
+	height: 0.98rem;
+	background: #ffe816;
+	font-size: 0.3rem;
+	color: #331900;
+	text-align: center;
+	line-height: 0.98rem;
+	display: block;
+}
+.weibu .san{
+	width: 2.16rem;
+	height: 0.98rem;
+	background: #ff679a;
+	font-size: 0.3rem;
+	color: #f7fffe;
+	text-align: center;
+	line-height: 0.98rem;
+	display: block;
+}
+#weibu{
+	width: 100%;
+	height: 0.98rem;
+}
